@@ -1,0 +1,3 @@
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org earthengine-api geemap pandas numpy scikit-learn
+
+##command to bypass pip in pycharm
