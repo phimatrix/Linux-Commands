@@ -1,0 +1,22 @@
+###ADDING MENU IN THE LINUXMINT DESKTOP####
+
+#step1-> Create file (example: have to add github in menu).
+nano ~/.local/share/applications/github.desktop
+
+
+#step2-> give desktop entry like this in the same nano terminal.
+[Desktop Entry]
+Name=GitHub
+Comment=Open GitHub
+Exec=brave-browser --app=https://github.com
+Icon=applications-development
+Terminal=false
+Type=Application
+Categories=Network;
+
+step3-> give permissions.
+chmod +x ~/.local/share/applications/github.desktop
+
+
+step4-> refresh menu.
+xfce4-panel --restart
