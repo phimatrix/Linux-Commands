@@ -8,7 +8,7 @@ nano ~/.local/share/applications/github.desktop
 [Desktop Entry]
 Name=GitHub
 Comment=Open GitHub
-Exec=brave-browser --app=https://github.com
+Exec=brave-browser --app=https://github.com (--app= make app interface remove this to get browser interface)
 Icon=applications-development
 Terminal=false
 Type=Application
